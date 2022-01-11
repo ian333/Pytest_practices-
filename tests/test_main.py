@@ -1,6 +1,5 @@
 import pytest
-import exercises.main.suma as suma
-
+from exercises.main import suma
 def test_suma():
     assert suma(2,2)==4
     
