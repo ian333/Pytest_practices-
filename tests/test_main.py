@@ -1,5 +1,5 @@
 import pytest
-from main import suma
+import exercises.main.suma as suma
 
 def test_suma():
     assert suma(2,2)==4
@@ -7,7 +7,7 @@ def test_suma():
 @pytest.mark.parametrize(
     "input_a,input_b,expected",
     [
-        (3,2,5),
+        (3,2,5),    
         (2,3,5),
         (suma(3,2),5,10),
         (3,suma(2,5),10),
