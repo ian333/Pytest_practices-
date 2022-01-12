@@ -34,4 +34,5 @@ class calculadora:
             x (int/float): Primer argumento a multiplicar
             y ([type]): 
         """
+        return x*y
     
